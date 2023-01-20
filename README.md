@@ -1,2 +1,3 @@
 # go-demo
-go lang demo example
+
+go lang learning material. [gobyexample](https://gobyexample.com).
