@@ -7,6 +7,7 @@ package main
 
 import "os"
 
+// https://gobyexample.com/panic
 func main() {
 
 	// We'll use panic throughout this site to check for

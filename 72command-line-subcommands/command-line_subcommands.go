@@ -13,6 +13,7 @@ import (
 	"os"
 )
 
+// https://gobyexample.com/command-line-subcommands
 func main() {
 
 	// We declare a subcommand using the `NewFlagSet`

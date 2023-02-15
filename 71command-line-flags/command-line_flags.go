@@ -13,6 +13,7 @@ import (
 	"fmt"
 )
 
+// https://gobyexample.com/command-line-flags
 func main() {
 
 	// Basic flag declarations are available for string,

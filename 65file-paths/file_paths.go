@@ -10,6 +10,7 @@ import (
 	"strings"
 )
 
+// https://gobyexample.com/file-paths
 func main() {
 
 	// `Join` should be used to construct paths in a

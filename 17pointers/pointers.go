@@ -11,6 +11,7 @@ import "fmt"
 // `int` parameter, so arguments will be passed to it by
 // value. `zeroval` will get a copy of `ival` distinct
 // from the one in the calling function.
+// https://gobyexample.com/pointers
 func zeroval(ival int) {
 	ival = 0
 }

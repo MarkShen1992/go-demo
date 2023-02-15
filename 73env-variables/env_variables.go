@@ -11,6 +11,7 @@ import (
 	"strings"
 )
 
+// https://gobyexample.com/environment-variables
 func main() {
 
 	// To set a key/value pair, use `os.Setenv`. To get a

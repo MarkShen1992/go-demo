@@ -13,6 +13,7 @@ import (
 // it a lot below.
 var p = fmt.Println
 
+// https://gobyexample.com/string-functions
 func main() {
 
 	// Here's a sample of the functions available in

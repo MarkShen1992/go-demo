@@ -22,6 +22,7 @@ func worker(id int, jobs <-chan int, results chan<- int) {
 	}
 }
 
+// https://gobyexample.com/worker-pools
 func main() {
 
 	// In order to use our pool of workers we need to send

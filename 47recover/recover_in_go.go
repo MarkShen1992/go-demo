@@ -19,6 +19,7 @@ func mayPanic() {
 	panic("a problem")
 }
 
+// https://gobyexample.com/recover
 func main() {
 	// `recover` must be called within a deferred function.
 	// When the enclosing function panics, the defer will

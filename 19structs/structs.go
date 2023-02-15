@@ -7,6 +7,7 @@ package main
 import "fmt"
 
 // This `person` struct type has `name` and `age` fields.
+// https://gobyexample.com/structs
 type person struct {
 	name string
 	age  int

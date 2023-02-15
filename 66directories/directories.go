@@ -15,6 +15,7 @@ func check(e error) {
 	}
 }
 
+// https://gobyexample.com/directories
 func main() {
 
 	// Create a new sub-directory in the current working

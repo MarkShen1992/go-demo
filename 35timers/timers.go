@@ -11,6 +11,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/timers
 func main() {
 
 	// Timers represent a single event in the future. You

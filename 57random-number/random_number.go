@@ -10,6 +10,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/random-numbers
 func main() {
 
 	// For example, `rand.Intn` returns a random `int` n,

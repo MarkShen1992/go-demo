@@ -11,6 +11,7 @@ import "fmt"
 // we define anonymously in the body of `intSeq`. The
 // returned function _closes over_ the variable `i` to
 // form a closure.
+// https://gobyexample.com/closures
 func intSeq() func() int {
 	i := 0
 	return func() int {

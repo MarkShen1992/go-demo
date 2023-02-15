@@ -8,6 +8,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/struct-embedding
 type base struct {
 	num int
 }

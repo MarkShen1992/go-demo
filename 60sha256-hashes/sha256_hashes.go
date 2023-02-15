@@ -13,6 +13,7 @@ import (
 	"fmt"
 )
 
+// https://gobyexample.com/sha256-hashes
 func main() {
 	s := "sha256 this string"
 

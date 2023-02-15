@@ -14,6 +14,7 @@ import (
 	"syscall"
 )
 
+// https://gobyexample.com/signals
 func main() {
 
 	// Go signal notification works by sending `os.Signal`

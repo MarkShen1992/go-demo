@@ -18,6 +18,7 @@ func worker(id int) {
 	fmt.Printf("Worker %d done\n", id)
 }
 
+// https://gobyexample.com/waitgroups
 func main() {
 
 	// This WaitGroup is used to wait for all the

@@ -7,6 +7,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/channels
 func main() {
 
 	// Create a new channel with `make(chan val-type)`.

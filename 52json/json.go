@@ -24,6 +24,7 @@ type response2 struct {
 	Fruits []string `json:"fruits"`
 }
 
+// https://gobyexample.com/json
 func main() {
 
 	// First we'll look at encoding basic data types to

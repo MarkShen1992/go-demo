@@ -11,6 +11,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/tickers
 func main() {
 
 	// Tickers use a similar mechanism to timers: a

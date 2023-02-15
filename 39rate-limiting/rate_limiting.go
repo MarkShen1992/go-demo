@@ -11,6 +11,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/rate-limiting
 func main() {
 
 	// First we'll look at basic rate limiting. Suppose

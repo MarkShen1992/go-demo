@@ -27,6 +27,7 @@ func (p Plant) String() string {
 		p.Id, p.Name, p.Origin)
 }
 
+// https://gobyexample.com/xml
 func main() {
 	coffee := &Plant{Id: 27, Name: "Coffee"}
 	coffee.Origin = []string{"Ethiopia", "Brazil"}

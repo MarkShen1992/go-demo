@@ -10,6 +10,7 @@ import "fmt"
 // communicate work to be done from the `main()` goroutine
 // to a worker goroutine. When we have no more jobs for
 // the worker we'll `close` the `jobs` channel.
+// https://gobyexample.com/closing-channels
 func main() {
 	jobs := make(chan int, 5)
 	done := make(chan bool)

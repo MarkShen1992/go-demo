@@ -21,6 +21,7 @@ func pong(pings <-chan string, pongs chan<- string) {
 	pongs <- msg
 }
 
+// https://gobyexample.com/channel-directions
 func main() {
 	pings := make(chan string, 1)
 	pongs := make(chan string, 1)

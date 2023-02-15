@@ -30,6 +30,7 @@ func (c *Container) inc(name string) {
 	c.counters[name]++
 }
 
+// https://gobyexample.com/mutexes
 func main() {
 	c := Container{
 		// Note that the zero value of a mutex is usable as-is, so no

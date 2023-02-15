@@ -9,6 +9,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/channel-buffering
 func main() {
 
 	// Here we `make` a channel of strings buffering up to

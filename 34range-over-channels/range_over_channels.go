@@ -7,6 +7,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/range-over-channels
 func main() {
 
 	// We'll iterate over 2 values in the `queue` channel.

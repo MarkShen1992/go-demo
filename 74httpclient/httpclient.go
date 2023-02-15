@@ -10,6 +10,7 @@ import (
 	"net/http"
 )
 
+// https://gobyexample.com/http-client
 func main() {
 
 	// Issue an HTTP GET request to a server. `http.Get` is a

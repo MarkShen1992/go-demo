@@ -5,6 +5,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/maps
 func main() {
 
 	// To create an empty map, use the builtin `make`:

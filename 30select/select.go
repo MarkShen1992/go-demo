@@ -9,6 +9,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/select
 func main() {
 
 	// For our example we'll select across two channels.

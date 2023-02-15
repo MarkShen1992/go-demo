@@ -4,6 +4,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/methods
 type rect struct {
 	width, height int
 }

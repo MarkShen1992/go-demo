@@ -38,6 +38,7 @@ func (s byLength) Less(i, j int) bool {
 // custom sort by converting the original `fruits` slice
 // to `byLength`, and then use `sort.Sort` on that typed
 // slice.
+// https://gobyexample.com/sorting-by-functions
 func main() {
 	fruits := []string{"peach", "banana", "kiwi"}
 	sort.Sort(byLength(fruits))

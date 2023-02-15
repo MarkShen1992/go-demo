@@ -13,6 +13,7 @@ type point struct {
 	x, y int
 }
 
+// https://gobyexample.com/string-formatting
 func main() {
 
 	// Go offers several printing "verbs" designed to

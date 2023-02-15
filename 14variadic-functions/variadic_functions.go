@@ -9,6 +9,7 @@ import "fmt"
 
 // Here's a function that will take an arbitrary number
 // of `int`s as arguments.
+// https://gobyexample.com/variadic-functions
 func sum(nums ...int) {
 	fmt.Print(nums, " ")
 	total := 0

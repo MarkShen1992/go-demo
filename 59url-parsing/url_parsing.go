@@ -9,6 +9,7 @@ import (
 	"net/url"
 )
 
+// https://gobyexample.com/url-parsing
 func main() {
 
 	// We'll parse this example URL, which includes a

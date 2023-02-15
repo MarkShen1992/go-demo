@@ -34,6 +34,7 @@ func headers(w http.ResponseWriter, req *http.Request) {
 	}
 }
 
+// https://gobyexample.com/http-server
 func main() {
 
 	// We register our handlers on server routes using the

@@ -8,6 +8,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/time-formatting-parsing
 func main() {
 	p := fmt.Println
 

@@ -10,6 +10,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/timeouts
 func main() {
 
 	// For our example, suppose we're executing an external

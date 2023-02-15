@@ -6,6 +6,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/range
 func main() {
 
 	// Here we use `range` to sum the numbers in a slice.

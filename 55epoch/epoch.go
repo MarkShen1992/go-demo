@@ -10,6 +10,7 @@ import (
 	"time"
 )
 
+// https://gobyexample.com/epoch
 func main() {
 
 	// Use `time.Now` with `Unix`, `UnixMilli` or `UnixNano`

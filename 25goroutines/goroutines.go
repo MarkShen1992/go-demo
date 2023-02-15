@@ -13,6 +13,7 @@ func f(from string) {
 	}
 }
 
+// https://gobyexample.com/goroutines
 func main() {
 
 	// Suppose we have a function call `f(s)`. Here's how

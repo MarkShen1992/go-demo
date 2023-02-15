@@ -16,6 +16,7 @@ import (
 	"syscall"
 )
 
+// https://gobyexample.com/execing-processes
 func main() {
 
 	// For our example we'll exec `ls`. Go requires an

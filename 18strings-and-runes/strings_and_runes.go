@@ -14,6 +14,7 @@ import (
 	"unicode/utf8"
 )
 
+// https://gobyexample.com/strings-and-runes
 func main() {
 
 	// `s` is a `string` assigned a literal value

@@ -7,6 +7,7 @@ package main
 
 import "fmt"
 
+// https://gobyexample.com/non-blocking-channel-operations
 func main() {
 	messages := make(chan string)
 	signals := make(chan bool)

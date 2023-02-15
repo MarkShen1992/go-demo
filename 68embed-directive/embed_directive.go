@@ -31,6 +31,7 @@ var fileByte []byte
 //go:embed folder/*.hash
 var folder embed.FS
 
+// https://gobyexample.com/embed-directive
 func main() {
 
 	// Print out the contents of `single_file.txt.txt`.

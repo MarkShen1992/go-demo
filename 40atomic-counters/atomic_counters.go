@@ -13,6 +13,7 @@ import (
 	"sync/atomic"
 )
 
+// https://gobyexample.com/atomic-counters
 func main() {
 
 	// We'll use an unsigned integer to represent our

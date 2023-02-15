@@ -9,6 +9,7 @@ import (
 )
 
 // Here's a basic interface for geometric shapes.
+// https://gobyexample.com/interfaces
 type geometry interface {
 	area() float64
 	perim() float64

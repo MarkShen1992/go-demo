@@ -19,6 +19,7 @@ func check(e error) {
 	}
 }
 
+// https://gobyexample.com/reading-files
 func main() {
 
 	// Perhaps the most basic file reading task is

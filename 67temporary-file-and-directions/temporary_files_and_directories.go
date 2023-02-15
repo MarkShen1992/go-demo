@@ -18,6 +18,7 @@ func check(e error) {
 	}
 }
 
+// https://gobyexample.com/temporary-files-and-directories
 func main() {
 
 	// The easiest way to create a temporary file is by

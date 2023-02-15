@@ -15,6 +15,7 @@ import (
 	"strings"
 )
 
+// https://gobyexample.com/line-filters
 func main() {
 
 	// Wrapping the unbuffered `os.Stdin` with a buffered

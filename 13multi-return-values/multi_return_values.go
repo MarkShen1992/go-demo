@@ -8,6 +8,7 @@ import "fmt"
 
 // The `(int, int)` in this function signature shows that
 // the function returns 2 `int`s.
+// https://gobyexample.com/multiple-return-values
 func vals() (int, int) {
 	return 3, 7
 }

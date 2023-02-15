@@ -34,6 +34,7 @@ type writeOp struct {
 	resp chan bool
 }
 
+// https://gobyexample.com/stateful-goroutines
 func main() {
 
 	// As before we'll count how many operations we perform.

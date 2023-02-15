@@ -1,2 +1,2 @@
 # go-demo
-go lang demo example
+- [gobyexample](https://github.com/mmcgrana/gobyexample)

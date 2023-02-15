@@ -10,6 +10,7 @@ import (
 	"text/template"
 )
 
+// https://gobyexample.com/text-templates
 func main() {
 
 	// We can create a new template and parse its body from

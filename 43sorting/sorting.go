@@ -9,6 +9,7 @@ import (
 	"sort"
 )
 
+// https://gobyexample.com/sorting
 func main() {
 
 	// Sort methods are specific to the builtin type;

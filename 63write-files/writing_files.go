@@ -15,6 +15,7 @@ func check(e error) {
 	}
 }
 
+// https://gobyexample.com/writing-files
 func main() {
 
 	// To start, here's how to dump a string (or just

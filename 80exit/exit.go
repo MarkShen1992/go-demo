@@ -8,6 +8,7 @@ import (
 	"os"
 )
 
+// https://gobyexample.com/exit
 func main() {
 
 	// `defer`s will _not_ be run when using `os.Exit`, so

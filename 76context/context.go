@@ -40,6 +40,7 @@ func hello(w http.ResponseWriter, req *http.Request) {
 	}
 }
 
+// https://gobyexample.com/context
 func main() {
 
 	// As before, we register our handler on the "/hello"

@@ -7,6 +7,7 @@ import "fmt"
 
 // Here's a function that takes two `int`s and returns
 // their sum as an `int`.
+// https://gobyexample.com/functions
 func plus(a int, b int) int {
 
 	// Go requires explicit returns, i.e. it won't
